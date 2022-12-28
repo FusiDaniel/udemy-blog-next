@@ -39,19 +39,34 @@ export type PostCoverFormat = {
 };
 
 export type PostCover = {
-  id: number;
-  attributes: {
-    name: string;
-    alternativeText: string;
-    caption: string;
-    width: number;
-    height: number;
-    formats: {
-      large: PostCoverFormat;
-      small: PostCoverFormat;
-      medium: PostCoverFormat;
-      thumbnail: PostCoverFormat;
+  data: {
+    id: number;
+    attributes: {
+      name: string;
+      alternativeText: string;
+      caption: string;
+      width: number;
+      height: number;
+      formats: {
+        large: PostCoverFormat;
+        small: PostCoverFormat;
+        medium: PostCoverFormat;
+        thumbnail: PostCoverFormat;
+      };
     };
+    hash: string;
+    ext: string;
+    mime: string;
+    size: number;
+    url: string;
+    previewUrl: string;
+    provider: string;
+    provider_metadata: {
+      public_id: string;
+      resource_type: string;
+    };
+    createdAt: string;
+    updatedAt: string;
   };
 };
 

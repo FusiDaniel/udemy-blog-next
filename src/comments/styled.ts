@@ -1,5 +1,5 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-  background-color: grey;
+  margin: 5rem 0;
 `;

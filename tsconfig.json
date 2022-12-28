@@ -25,6 +25,12 @@
       "@domain/*": [
         "./src/domain/*"
       ],
+      "@components/*": [
+        "./src/components/*"
+      ],
+      "@config/*": [
+        "./src/config/*"
+      ],
     },
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
