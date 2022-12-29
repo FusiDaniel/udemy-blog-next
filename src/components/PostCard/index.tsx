@@ -15,7 +15,8 @@ export const PostCard = ({ slug, title, cover }: PostCardProps) => {
         <Link href="/post/[slug]" as={`/post/${slug}`}>
           {/* <img src={cover} alt={title}></img> */}
           <div className="next-image-wrapper">
-            <Image src={cover} alt={title} fill={true} />
+            <img src={cover} alt={title} />
+            {/* <Image src={cover} alt={title} fill={true} /> */}
           </div>
         </Link>
       </PostCardCover>

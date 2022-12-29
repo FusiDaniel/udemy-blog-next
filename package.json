@@ -10,6 +10,7 @@
     "deploy:static": "next build && next export"
   },
   "dependencies": {
+    "cloudinary-build-url": "^0.2.4",
     "disqus-react": "^1.1.5",
     "next": "13.1.1",
     "qs": "^6.11.0",
@@ -20,6 +21,7 @@
     "styled-components": "^5.3.6"
   },
   "devDependencies": {
+    "@cld-apis/types": "^0.1.6",
     "@next/eslint-plugin-next": "^13.1.1",
     "@next/font": "13.1.1",
     "@types/node": "^18.11.18",

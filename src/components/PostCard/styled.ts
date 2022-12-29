@@ -16,6 +16,13 @@ export const PostCardCover = styled.div`
     position: relative;
     background-color: ${({ theme }) => theme.colors.lightGray};
   }
+  img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+  }
 `;
 
 export const PostCardHeading = styled.h2`
